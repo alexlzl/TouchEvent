@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.demo.CustomRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_start_color"
+    tools:context=".MainActivity">
+
+    <com.example.demo.CustomTextView
+        android:onClick="testClick"
+        android:id="@+id/test"
+        android:background="@color/cardview_dark_background"
+        android:textSize="30sp"
+        android:textColor="@color/purple_500"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Hello World!"
+        />
+
+</com.example.demo.CustomRelativeLayout>
